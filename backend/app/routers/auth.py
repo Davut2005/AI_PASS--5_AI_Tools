@@ -4,7 +4,7 @@ from ..database import get_db
 from ..schemas.user import UserCreate, UserLogin, UserResponse, Token, GoogleAuthRequest
 from ..services.auth_service import AuthService
 from ..services.credit_service import CreditService
-from ..models.user import AuthProvider
+from ..models.user import AuthProvider, User, UserRole
 
 router = APIRouter(prefix="/auth", tags=["Authentication"])
 
