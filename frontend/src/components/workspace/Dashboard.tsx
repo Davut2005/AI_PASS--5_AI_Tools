@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
-import Sidebar from './SideBar';
+import Sidebar from './Sidebar';
 import ChatInterface from '../ai-tools/ChatInterface';
 import TextSummarizer from '../ai-tools/TextSummarizer';
 import ContentGenerator from '../ai-tools/ContentGenerator';
