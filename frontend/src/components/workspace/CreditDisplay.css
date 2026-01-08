@@ -1,0 +1,49 @@
+.credit-display {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: white;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s;
+}
+
+.credit-display.status-good {
+  border-color: #4caf50;
+  background: #f1f8f4;
+}
+
+.credit-display.status-warning {
+  border-color: #ff9800;
+  background: #fff8f0;
+}
+
+.credit-display.status-low {
+  border-color: #f44336;
+  background: #ffebee;
+}
+
+.credit-icon {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.credit-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.credit-label {
+  font-size: 11px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.credit-amount {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 2px;
+}

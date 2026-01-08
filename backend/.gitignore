@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.env.local
+venv/
+env/
+.venv/
+*.db
+*.sqlite
+.DS_Store
+alembic/versions/*.py
+!alembic/versions/__init__.py
